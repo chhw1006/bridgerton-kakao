@@ -7,20 +7,13 @@
 
 .welcome-header__title {
   margin-bottom: 30px;
-<<<<<<< Updated upstream
-  font-size: 25px;
-=======
   font-size: 30px;
   color: white;
->>>>>>> Stashed changes
 }
 
 .welcome-header__text {
   opacity: 0.7;
-<<<<<<< Updated upstream
-=======
   color: white;
->>>>>>> Stashed changes
 }
 
 #login-form {
@@ -32,21 +25,8 @@
 #login-form input {
   padding: 14px 0px;
   border: none;
-<<<<<<< Updated upstream
   font-size: 18px;
   margin-bottom: 25px;
-}
-
-#login-form input:not([type="submit"]) {
-  border-bottom: 1.3px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-}
-
-=======
-  border-radius: 20px;
-  font-size: 18px;
-  margin-bottom: 25px;
-  font-family: inter;
 }
 
 #login-form input:not([type="submit"]) {
@@ -58,22 +38,19 @@
   color: rgba(0, 0, 0, 0.5);
   padding-left: 15px;
 }
->>>>>>> Stashed changes
+
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:focus {
-<<<<<<< Updated upstream
-  border-color: var(--yellow);
+  border-color: var(--purple);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
   cursor: pointer;
   margin-bottom: 15px;
   border-radius: 5px;
-=======
   border-color: var(--purple);
 }
 
@@ -82,15 +59,11 @@
   cursor: pointer;
   margin-bottom: 15px;
   border-radius: 10px;
->>>>>>> Stashed changes
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
-<<<<<<< Updated upstream
   color: inherit;
-=======
   color: rgba(0, 0, 0, 0.4);
->>>>>>> Stashed changes
 }
