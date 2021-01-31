@@ -2,12 +2,29 @@
   margin-top: 50px;
 }
 
+.icon-row__rolum:nth-child(2) {
+  position: relative;
+}
+
+.talk-drive__notifi {
+  font-size: 50px;
+  position: absolute;
+  bottom: 65px;
+  right: 10px;
+  color: tomato !important;
+}
+
 .more-screen {
   margin-top: 25px;
 }
 
+.border-header__more-suggestions {
+  margin-top: 50px;
+}
+
 .more-suggestions {
   display: flex;
+  margin-top: 30px;
 }
 .more-suggestions__icons {
   display: flex;
@@ -23,8 +40,12 @@
 }
 
 .more-suggestions__icon-image img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.more-suggestions__icons-text {
+  color: white;
 }

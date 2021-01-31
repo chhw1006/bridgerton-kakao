@@ -1,0 +1,10 @@
+.border-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.border-header__more-suggestions {
+  color: var(--black);
+}

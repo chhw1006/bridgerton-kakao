@@ -38,34 +38,108 @@
       </div>
     </header>
 
-    <main class="main-screen main-chat"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Saturday, January 16, 2021</div>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__notifi">.</span>
-            <i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+      <div class="message-row">
+        <img src="photos/simon.png" />
+        <div class="message-row__content">
+          <span class="message__author">Simon</span>
+          <div class="message__info">
+            <span class="message__bubble">Hiii</span>
+            <span class="message__time">13:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="photos/simon.png" />
+        <div class="message-row__content">
+          <span class="message__author">Simon</span>
+          <div class="message__info">
+            <span class="message__bubble">Are you busy now?</span>
+            <span class="message__time">13:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Heyy no I'm not. what's up?</span>
+            <span class="message__time">13:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="photos/simon.png" />
+        <div class="message-row__content">
+          <span class="message__author">Simon</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              Wanna go to cinema in couple hours?</span
+            >
+            <span class="message__time">13:31</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Sure, I'll let Sarah know!</span>
+            <span class="message__time">13:31</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">meet you there at 330ish?</span>
+            <span class="message__time">13:31</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="photos/simon.png" />
+        <div class="message-row__content">
+          <span class="message__author">Simon</span>
+          <div class="message__info">
+            <span class="message__bubble">yes hun</span>
+            <span class="message__time">13:33</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="photos/simon.png" />
+        <div class="message-row__content">
+          <span class="message__author">Simon</span>
+          <div class="message__info">
+            <span class="message__bubble">❤️</span>
+            <span class="message__time">13:34</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <span>#</span>
+      </div>
+      <div class="reply__column">
+        <i class="fas fa-microphone fa-lg"></i>
+      </div>
+    </form>
+
     <div id="no-mobile">
       <span>Your screen is too big :(</span>
     </div>
