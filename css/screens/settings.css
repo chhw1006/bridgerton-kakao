@@ -1,3 +1,10 @@
+.settings__alt-header {
+  background-color: var(--blue);
+}
+
+.settings-list {
+  margin-top: 90px;
+}
 .settings__setting {
   padding: 25px 0;
   font-size: 22px;

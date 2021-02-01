@@ -1,5 +1,6 @@
 .status-bar {
   position: fixed;
+  background-color: var(--blue);
   top: 0;
   width: 100%;
   display: flex;

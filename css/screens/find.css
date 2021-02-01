@@ -1,3 +1,7 @@
+.find-screen .icon-row {
+  margin-top: 100px;
+}
+
 .chat-room {
   display: flex;
   justify-content: space-between;
@@ -81,10 +85,10 @@
   margin-right: 3px;
 }
 
-.cog__notifi {
+.cog-notifi {
   font-size: 50px;
   position: absolute;
-  top: 20px;
+  top: -6px;
   right: 12px;
   color: tomato !important;
 }

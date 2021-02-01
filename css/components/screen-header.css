@@ -8,6 +8,10 @@ body {
   padding: var(--horizontal-space);
   align-items: center;
   color: white;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--blue);
 }
 
 .screen-header__title {
@@ -33,15 +37,16 @@ body {
 }
 
 @keyframes iconAnimation {
-  0%{ 
-    transform:none;
+  0% {
+    transform: none;
   }
   25% {
-    transform:rotateZ(45deg);
+    transform: rotateZ(45deg);
   }
   50% {
-    transform:rotateZ(-45deg);
+    transform: rotateZ(-45deg);
   }
-  100%{
-    transform:none;
+  100% {
+    transform: none;
   }
+}

@@ -1,3 +1,15 @@
+.more__cog-notifi {
+  font-size: 50px;
+  position: absolute;
+  top: -13px;
+  right: 12px;
+  color: tomato !important;
+}
+
+.more-screen .user-component {
+  margin-top: 100px;
+}
+
 .more-screen .icon-row {
   margin-top: 50px;
 }

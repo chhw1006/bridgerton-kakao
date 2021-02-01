@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   color: white;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .alt-header__title {
