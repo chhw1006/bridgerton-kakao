@@ -12,6 +12,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   background-color: var(--blue);
+  z-index: 1;
 }
 
 .screen-header__title {
